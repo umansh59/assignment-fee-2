@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: rgb(24, 22, 22);
+    height: fit-content;
+    color: aliceblue;
+    display: flexbox;
+    flex-direction: row;
+    
+}
+#nav-items{
+    list-style: none;
+    display: flexbox;
+    float: right;
+    margin-right: 100 px;
+    position: relative;
+    left: -10px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+    border: 1px solid grey;
+    position: relative;
+    right: -450px;
+    top: 150px
+}
+#card-info{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: -20px
+}
+#product-image{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color:rgb(24, 22, 22) ;
+    height: 50px;
+    color: aliceblue;
+    width: 100%;
+    
+    
+    
+}
+#footer-content{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+}
